@@ -1,0 +1,21 @@
+{
+	"STM32F405XG": {
+        "inherits": [
+            "MCU_STM32F4"
+        ],
+        "supported_form_factors": [],
+        "extra_labels_add": [
+            "STM32F405xG",
+            "STM32F405xx"
+        ],
+        "macros_add": [
+            "STM32F405xx",
+            "STM32F405xG",
+            "MBED_TICKLESS"
+        ],
+        "detect_code": [
+            "9998"
+        ],
+        "device_name": "STM32F405XG"
+	}
+}

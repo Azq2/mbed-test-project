@@ -1,0 +1,8 @@
+{
+	"target_overrides": {
+		"*": {
+			"platform.default-serial-baud-rate": 115200,
+			"target.tickless-from-us-ticker": true
+		}
+	}
+}

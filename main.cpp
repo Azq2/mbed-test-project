@@ -9,7 +9,7 @@ FileHandle *mbed::mbed_override_console(int fd) {
 
 int main(void) {
 	while (true) {
-		printf("XUJ\r\n");
+		printf("Hello?\r\n");
 		ThisThread::sleep_for(1s);
 	}
     return 0;

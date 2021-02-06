@@ -13,6 +13,7 @@
             "STM32F405xG",
             "MBED_TICKLESS"
         ],
+        "device_has_add": ["USBDEVICE"],
         "detect_code": [
             "9998"
         ],

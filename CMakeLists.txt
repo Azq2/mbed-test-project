@@ -24,7 +24,7 @@ mbed_configure_app_target(${APP_TARGET})
 
 project(${APP_TARGET})
 
-target_link_libraries(${APP_TARGET} mbed-os)
+target_link_libraries(${APP_TARGET} mbed-os mbed-usb mbed-events)
 
 mbed_set_post_build(${APP_TARGET})
 
